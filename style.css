@@ -22,8 +22,10 @@ li{
 }
 .m_header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-left: 43px;
+    align-items: center;
+    margin: 0 200px;
 }
 .button_primary{
     font-size: 20px;
@@ -31,6 +33,8 @@ li{
     background-color: orangered;
     color: aliceblue;
     padding: 10px;
+    border-radius: 5px;
+    font-weight: 70px;
 
 }
 li a{
